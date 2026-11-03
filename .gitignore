@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase credentials
+**/serviceAccountKey*.json
+**/*service-account*.json
+**/firebase-adminsdk*.json
+
+# Private keys
+*.pem
+*.key
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Deployment
+.vercel/
+
+# Firebase local files
+.firebase/
+
+# Operating system
+.DS_Store
+Thumbs.db
